@@ -8,4 +8,12 @@ groq
 openai
 gspread
 google-auth
+python-telegram-bot==20.7
+google-genai
+groq
+openai
+gspread
+google-auth
+python-dotenv
+httpx
 python-dotenv
