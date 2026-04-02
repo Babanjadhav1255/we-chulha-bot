@@ -39,6 +39,7 @@ groq_client   = Groq(api_key=GROQ_API_KEY)
 
 openai_client = OpenAI(api_key=OPENAI_API_KEY)
 genai_client = genai.Client(api_key=GEMINI_API_KEY)
+model = genai.GenerativeModel("gemini-2.0-flash")
 
 # ── WE Chulha Knowledge Base ──────────────────────────────────────────────────
 KNOWLEDGE_BASE = """
