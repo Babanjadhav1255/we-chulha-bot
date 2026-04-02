@@ -6,8 +6,6 @@ import logging
 import asyncio
 from datetime import datetime
 from google import genai
-
-from dotenv import load_dotenv
 load_dotenv()
 
 from groq import Groq
